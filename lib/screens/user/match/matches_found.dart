@@ -28,13 +28,6 @@ class _MatchesFoundState extends State<MatchesFound> {
             padding: EdgeInsets.symmetric(vertical: 16.0),
             child: Column(
                 children: <Widget>[
-                    Text('RECENT MATCHES',
-                        style: TextStyle(
-                            color:Colors.grey.shade500,
-                            fontSize:18.0,
-                        ),
-                    ),
-                    
                     Expanded(child: this.matchUserAvatars,), //User avatars
 
                     Expanded(

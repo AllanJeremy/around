@@ -112,30 +112,12 @@ class _MatchPageState extends State<MatchPage> {
             ),
             body: Column(
                 children: <Widget>[
-                    //Top strip
-                    // Container(
-                    //   height: 48.0,
-                    //   color:Colors.grey.shade300,
-                    //   child: Row( 
-                    //         mainAxisAlignment: MainAxisAlignment.center,
-                    //         crossAxisAlignment: CrossAxisAlignment.center,
-                    //         children: <Widget>[
-                    //             Text('Auto matching',
-                    //                 style: TextStyle(
-                    //                     color:Colors.black87,
-                    //                     fontSize: 18.0
-                    //                 )
-                    //             ),
-                                
-                    //             Switch(
-                    //                 onChanged: updateMatchingActive,
-                    //                 value: true,//this.autoMatchIsActive
-                    //                 activeColor: Colors.greenAccent,
-                    //             ),
-                    //         ],
-                    //     ), 
-                    // ),
-
+                    Text('RECENT MATCHES',
+                        style: TextStyle(
+                            color:Colors.grey.shade500,
+                            fontSize:18.0,
+                        ),
+                    ),
                     //Page contents
                     Expanded(
                         child: Container(
