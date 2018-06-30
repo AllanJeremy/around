@@ -9,15 +9,20 @@ class NoMatchesFound extends StatelessWidget {
             children: <Widget>[
                 Padding(
                     padding: EdgeInsets.symmetric(vertical: 32.0),
-                    child: Text('You have not yet matched with anyone. Your most recent matches will appear here',
-                        style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.grey.shade600
+                    child: Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: Center(
+                            child: Text('You have not yet matched with anyone.\n Your most recent matches will appear here',
+                                style: TextStyle(
+                                    fontSize: 16.0,
+                                    color: Colors.grey.shade600
+                                ),
+                            ),
                         ),
                     ),
                 ),
                 Expanded(
-                    child: Icon(Icons.person, size: 48.0),
+                    child: Icon(Icons.person, size: 256.0,color:Colors.grey.shade500),
                 ),
             ],
         ),

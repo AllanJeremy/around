@@ -69,7 +69,7 @@ class _MatchPageState extends State<MatchPage> {
   void initState() {
     super.initState();
     activeBottomNavIndex = 0;
-    this.hasMatches = true; //TODO: Make this check if there are actually any matches
+    this.hasMatches = false; //TODO: Make this check if there are actually any matches
     this._updateActivePage();
   }
 
@@ -112,6 +112,7 @@ class _MatchPageState extends State<MatchPage> {
             ),
             body: Column(
                 children: <Widget>[
+                    SizedBox(height: 16.0,),
                     Text('RECENT MATCHES',
                         style: TextStyle(
                             color:Colors.grey.shade500,
