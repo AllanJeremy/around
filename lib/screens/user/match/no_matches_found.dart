@@ -12,10 +12,12 @@ class NoMatchesFound extends StatelessWidget {
                     child: Padding(
                         padding: EdgeInsets.all(16.0),
                         child: Center(
+                            
                             child: Text('You have not yet matched with anyone.\n Your most recent matches will appear here',
+                                textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontSize: 16.0,
-                                    color: Colors.grey.shade600
+                                    color: Colors.grey.shade500
                                 ),
                             ),
                         ),
